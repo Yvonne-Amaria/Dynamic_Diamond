@@ -10,7 +10,7 @@ public class Main {
         return headerFooter;
     }
 
-    // Create a center space to aline the Diamond
+    // Create a center space to align the Diamond
     private static String createSpaceForCenter(int totalLength, int charLength, String lineStr) {
         int lineSpaceLength = ((totalLength - (charLength + 2)) / 2);
         String spaceStr = "";
